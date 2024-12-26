@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Joki & Web Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Jasa Joki & Web Premium</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-item active">Beranda</a></li>
+                <li><a href="#services" class="nav-item">Layanan</a></li>
+                <li><a href="#projects" class="nav-item">Proyek</a></li>
+                <li><a href="#testimonials" class="nav-item">Testimonial</a></li>
+                <li><a href="#order" class="nav-item">Pesan</a></li>
+                <li><a href="#contact" class="nav-item">Kontak</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section id="home" class="section">
+            <h2>Selamat Datang di Jasa Joki & Web Premium</h2>
+            <p>Kami menyediakan layanan joki game dan pembuatan website premium berkualitas tinggi.</p>
+        </section>
+    
+        <section id="services" class="section">
+            <h2>Layanan Kami</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Jasa Joki Game</h3>
+                    <p>Tingkatkan peringkat Anda dengan bantuan joki profesional kami.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Pembuatan Website</h3>
+                    <p>Dapatkan website premium yang sesuai dengan kebutuhan bisnis Anda.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Pengembangan Aplikasi</h3>
+                    <p>Buat aplikasi mobile yang inovatif untuk bisnis Anda.</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="projects" class="section">
+            <h2>Proyek Terbaru</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="th.jpg" alt="Proyek 1">
+                    <h3>Website E-commerce</h3>
+                    <p>Website toko online dengan fitur lengkap</p>
+                </div>
+                <div class="project-card">
+                    <img src="mobile.jpg" alt="Proyek 2">
+                    <h3>Aplikasi Mobile Game</h3>
+                    <p>Game mobile dengan grafis memukau</p>
+                </div>
+                <div class="project-card">
+                    <img src="web.jpg" alt="Proyek 3">
+                    <h3>Pembuatan Web</h3>
+                    <p>membuat web dengan desain yang menarik</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="testimonials" class="section">
+            <h2>Testimonial Klien</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p>"Layanan joki game mereka luar biasa! Peringkat saya naik drastis."</p>
+                    <h4>- Andi S.</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Website yang mereka buat sangat profesional dan sesuai kebutuhan bisnis kami."</p>
+                    <h4>- Budi W.</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Tim support yang sangat responsif dan membantu."</p>
+                    <h4>- Citra R.</h4>
+                </div>
+            </div>
+        </section>
+    
+        <section id="order" class="section">
+            <h2>Pesan Layanan</h2>
+            <form id="order-form">
+                <input type="text" placeholder="Nama Lengkap" required>
+                <input type="email" placeholder="Email" required>
+                <select required>
+                    <option value="">Pilih Layanan</option>
+                    <option value="joki">Jasa Joki Game</option>
+                    <option value="website">Pembuatan Website</option>
+                    <option value="app">Pengembangan Aplikasi</option>
+                </select>
+                <textarea placeholder="Deskripsi Kebutuhan" required></textarea>
+                <button type="submit">Kirim Pesanan</button>
+            </form>
+        </section>
+    
+        <section id="contact" class="section">
+            <h2>Hubungi Kami</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: info@jasajokiweb.com</p>
+                <p><i class="fas fa-phone"></i> Telepon: +62 838 1795 9219</p>
+                <p><i class="fas fa-map-marker-alt"></i> Alamat: Jl. hamzah Suralaya, Cilegon, Banten</p>
+            </div>
+        </section>
+    </main>
+    
+    <div id="live-chat" class="live-chat">
+        <div class="chat-header">
+            <h4>Live Chat</h4>
+            <span class="close-chat">&times;</span>
+        </div>
+        <div class="chat-messages">
+            <!-- Pesan chat akan ditambahkan di sini -->
+        </div>
+        <form id="chat-form">
+            <input type="text" id="chat-input" placeholder="Ketik pesan Anda...">
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+    
+    <button id="open-chat" class="open-chat">
+        <i class="fas fa-comments"></i> Chat
+    </button>
+    
+    <footer>
+        <p>&copy; 2025 Jasa Joki & Web Premium. Semua Hak Dilindungi.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
